@@ -34,7 +34,7 @@ main{
     border-radius: 8px;
     box-shadow: 0, 4px, 8px rgba(0, 0, 0,0.1) ;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
    display: flex;
     
 }
@@ -63,7 +63,19 @@ main{
 
 }
 
-#first h2 a, #second h2 a{
+#third {
+    background-image:  url(img/article3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    width: 10cm;
+    height: 10cm;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+#first h2 a, #second h2 a, #third h2 a{
     background-color: white;
     position: relative;
     top: 300px;
@@ -74,7 +86,7 @@ main{
 footer{
     text-align: center;
     position: relative;
-    margin-top: 100px;
+    margin-top: auto;
     border-top: solid #eeeeee;
 
 }
